@@ -23,9 +23,8 @@
 | ----------------------- | -----------| ------------------------------ |
 | user                    | references | null: false, foreign_key: true |
 | prototype_name          | string     | null: false                    | 
-| catchphrase             | ◯◯◯       | null: false                    | #string? or text?
-| concept                 | ◯◯◯    | null: false                    | #string? or text?
-| image                   | ◯◯◯    | null: false                    | #activestrage使う？確認まだ
+| catchphrase             | string     | null: false                    | 
+| concept                 | text       | null: false                    | 
 
 ### Association
 
